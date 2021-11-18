@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+	<head>
+		<meta charset="UTF-8">
+		<title>Multi-Factor E-mail</title>
+			<link rel="stylesheet" href="style.css">
+			<link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;700&display=swap" rel="stylesheet">
+			<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+			<link rel="icon" type="image/x-icon" href="https://favicon-generator.org/favicon-generator/htdocs/favicons/2021-11-16/563683422b8f63ed94a3ca125d2eaadb.ico">
+	</head>
+	
+	<body>
+		<div class="container">
+			<div class="left-side">
+				<span class="fingerprint material-icons">fingerprint</span>
+				<span class="page-name">Multi Factor Authenticator</span>
+			</div>
+			<div class="right-side">
+				<h2>LOGIN</h2>
+				<form class="form" action="authenticate.php" name="login" method="post">
+					<input class="input" type="email" id="email" name="email" placeholder="e-mail" required>
+					<input class="input" type="password" id="password" name="password" placeholder="senha" required>	
+					<input class="button" type="submit" name="button" value="ENVIAR">
+				</form>
+			</div>
+		</div>
+	</body>
+</html>
